@@ -25,7 +25,7 @@ public class test03 {
         configuration = new StandaloneProcessEngineConfiguration();
         configuration.setJdbcDriver("com.mysql.cj.jdbc.Driver");
         configuration.setJdbcUsername("root");
-        configuration.setJdbcPassword("123456");
+        configuration.setJdbcPassword("Lsl123123");
         configuration.setJdbcUrl("jdbc:mysql://localhost:3306/flowable1?serverTimezone=UTC&nullCatalogMeansCurrent=true");
         //如果数据库中的表结构不存在就新建
         configuration.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
